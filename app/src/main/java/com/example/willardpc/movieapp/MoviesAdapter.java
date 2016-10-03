@@ -48,8 +48,6 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MyViewHold
 
     @Override
     public int getItemCount() {
-        return 0;
+        return moviesList.size();
     }
-
-
 }
